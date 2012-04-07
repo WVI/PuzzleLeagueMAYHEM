@@ -8,12 +8,15 @@ namespace Puzzle_League_MAYHEM {
         Random rand = new Random();
 
         enum BlockColor {
-            Red,        // 0
-            Yellow,     // 1
-            Purple,     // 2
-            Green,      // 3
-            LightBlue,  // 4
-            DarkBlue    // 5
+            Blank,      // 0
+            Red,        // 1
+            Yellow,     // 2
+            Purple,     // 3
+            Green,      // 4
+            LightBlue,  // 5
+            DarkBlue,   // 6
+            Exclamation,// 7
+            Garbage     // 8
         }
         BlockColor thisColor;
 

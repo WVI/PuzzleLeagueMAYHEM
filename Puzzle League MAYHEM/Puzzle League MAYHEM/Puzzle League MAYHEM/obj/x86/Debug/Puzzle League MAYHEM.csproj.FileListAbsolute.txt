@@ -18,3 +18,23 @@ C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League
 C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\obj\x86\Debug\Puzzle League MAYHEM.exe
 C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\obj\x86\Debug\Puzzle League MAYHEM.pdb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\obj\x86\Debug\Puzzle League MAYHEM.csprojResolveAssemblyReference.cache
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\obj\x86\Debug\Puzzle League MAYHEM.exe
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\obj\x86\Debug\Puzzle League MAYHEM.pdb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\DarkBlueBlock_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\DarkBluePixel_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\GreenBlock_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\GreenPixel_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\LightBlueBlock_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\LightBluePixel_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\PurpleBlock_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\PurplePixel_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\RedBlock_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\RedPixel_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\ReferenceImage_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\YellowBlock_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\YellowPixel_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\WhitePixel_0.xnb
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Puzzle League MAYHEM.exe
+C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Puzzle League MAYHEM.pdb

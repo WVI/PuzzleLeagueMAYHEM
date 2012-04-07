@@ -5,98 +5,98 @@
       <Source>Graphics\Temp\DarkBlueBlock.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\DarkBlueBlock_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\DarkBlueBlock_0.xnb</Output>
       <Time>2012-03-14T19:28:30.8045418-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\DarkBluePixel.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\DarkBluePixel_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\DarkBluePixel_0.xnb</Output>
       <Time>2012-03-14T19:28:30.807542-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\GreenBlock.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\GreenBlock_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\GreenBlock_0.xnb</Output>
       <Time>2012-03-14T19:28:30.8125423-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\GreenPixel.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\GreenPixel_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\GreenPixel_0.xnb</Output>
       <Time>2012-03-14T19:28:30.8155424-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\LightBlueBlock.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\LightBlueBlock_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\LightBlueBlock_0.xnb</Output>
       <Time>2012-03-14T19:28:30.8215428-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\LightBluePixel.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\LightBluePixel_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\LightBluePixel_0.xnb</Output>
       <Time>2012-03-14T19:28:30.824543-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\PurpleBlock.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\PurpleBlock_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\PurpleBlock_0.xnb</Output>
       <Time>2012-03-14T19:28:30.8275431-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\PurplePixel.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\PurplePixel_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\PurplePixel_0.xnb</Output>
       <Time>2012-03-14T19:28:30.8295432-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\RedBlock.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\RedBlock_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\RedBlock_0.xnb</Output>
       <Time>2012-03-14T19:28:30.8355436-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\RedPixel.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\RedPixel_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\RedPixel_0.xnb</Output>
       <Time>2012-03-14T19:28:30.8385438-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\ReferenceImage.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\ReferenceImage_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\ReferenceImage_0.xnb</Output>
       <Time>2012-03-14T19:28:30.8405439-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\YellowBlock.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\YellowBlock_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\YellowBlock_0.xnb</Output>
       <Time>2012-03-14T19:28:30.843544-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\YellowPixel.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\YellowPixel_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\YellowPixel_0.xnb</Output>
       <Time>2012-03-14T19:28:30.8455442-04:00</Time>
     </Item>
     <Item>
       <Source>Graphics\Temp\WhitePixel.png</Source>
       <Importer>TextureImporter</Importer>
       <Options>None</Options>
-      <Output>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\WhitePixel_0.xnb</Output>
+      <Output>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\Graphics\Temp\WhitePixel_0.xnb</Output>
       <Time>2012-03-14T23:06:26.6684384-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -105,10 +105,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEMContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEMContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Willazo\Dropbox\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEMContent\</RootDirectory>
+      <LoggerRootDirectory>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEMContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
