@@ -37,6 +37,8 @@ namespace Puzzle_League_MAYHEM {
 		Stack testStack = new Stack();
 		Stack testStack2 = new Stack();
 
+		int multipleMoveCounter = 0;
+
         public PuzzleLeagueGame() {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -47,6 +49,9 @@ namespace Puzzle_League_MAYHEM {
 			graphics.IsFullScreen = false;
 			graphics.PreferredBackBufferWidth = 256 * 2;
 			graphics.PreferredBackBufferHeight = 224 * 2;
+
+			this.IsFixedTimeStep = false;
+			this.TargetElapsedTime = TimeSpan.FromSeconds(1.0f / 60.0f);
 
             objectManager = new ObjectManager(this);
             Components.Add(objectManager);
@@ -68,7 +73,8 @@ namespace Puzzle_League_MAYHEM {
 			// TESTING
 			testStack.LoadContent(theContentManager);
 			testStack2.LoadContent(theContentManager);
-			testStack2.StackLocation.X += 150;
+			testStack2.StackLocation.X += 144;
+			testStack2.MinimapLocation = new Vector2(134, 180);
         }
 
         protected override void UnloadContent() {
@@ -80,64 +86,134 @@ namespace Puzzle_League_MAYHEM {
 			padState1 = GamePad.GetState(PlayerIndex.One);
 			padState2 = GamePad.GetState(PlayerIndex.Two);
 
-
 			// TEST INPUT
 			
-			bool blockSwitch = false;
-			bool manualRaise = false;
+			bool p1BlockSwitch = false;
+			bool p1ManualRaise = false;
+			bool p2BlockSwitch = false;
+			bool p2ManualRaise = false;
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || keyState.IsKeyDown(Keys.Escape))
                 this.Exit();
 
 
-			if (keyState.IsKeyDown(Keys.Up) && !lastKeyState.IsKeyDown(Keys.Up))
-				testStack.MoveCursor(Stack.Direction.Up);
-			if (keyState.IsKeyDown(Keys.Right) && !lastKeyState.IsKeyDown(Keys.Right))
-				testStack.MoveCursor(Stack.Direction.Right);
-			if (keyState.IsKeyDown(Keys.Down) && !lastKeyState.IsKeyDown(Keys.Down))
-				testStack.MoveCursor(Stack.Direction.Down);
-			if (keyState.IsKeyDown(Keys.Left) && !lastKeyState.IsKeyDown(Keys.Left))
-				testStack.MoveCursor(Stack.Direction.Left);
+			// P1
+			Stack.Direction p1CurrentDirection = Stack.Direction.Up;
 
-			if (keyState.IsKeyDown(Keys.Z) && !lastKeyState.IsKeyDown(Keys.Z))
-				blockSwitch = true;
-			if (keyState.IsKeyDown(Keys.X) && !lastKeyState.IsKeyDown(Keys.X))
-				manualRaise = true;
+			if (!testStack.CursorCannotBeMoved) {
+				if (keyState.IsKeyDown(Keys.Up)) {
+					if (!lastKeyState.IsKeyDown(Keys.Up)) {
+						multipleMoveCounter = 0;
+						testStack.MoveCursor(Stack.Direction.Up);
+					}
+					else {
+						multipleMoveCounter++;
+						p1CurrentDirection = Stack.Direction.Up;
+					}		
+				}
+				else if (keyState.IsKeyDown(Keys.Down)) {
+					if (!lastKeyState.IsKeyDown(Keys.Down)) {
+						multipleMoveCounter = 0;
+						testStack.MoveCursor(Stack.Direction.Down);
+					}
+					else {
+						multipleMoveCounter++;
+						p1CurrentDirection = Stack.Direction.Down;
+					}
+				}
+				else if (keyState.IsKeyDown(Keys.Right)) {
+					if (!lastKeyState.IsKeyDown(Keys.Right)) {
+						multipleMoveCounter = 0;
+						testStack.MoveCursor(Stack.Direction.Right);
+					}
+					else {
+						multipleMoveCounter++;
+						p1CurrentDirection = Stack.Direction.Right;
+					}
+				}
+				else if (keyState.IsKeyDown(Keys.Left)) {
+					if (!lastKeyState.IsKeyDown(Keys.Left)) {
+						multipleMoveCounter = 0;
+						testStack.MoveCursor(Stack.Direction.Left);
+					}
+					else {
+						multipleMoveCounter++;
+						p1CurrentDirection = Stack.Direction.Left;
+					}
+				}
+				
 
-			if (padState1.IsButtonDown(Buttons.DPadUp) && !padState1.IsButtonDown(Buttons.DPadUp))
-				testStack.MoveCursor(Stack.Direction.Up);
-			if (padState1.IsButtonDown(Buttons.DPadRight) && !padState1.IsButtonDown(Buttons.DPadRight))
-				testStack.MoveCursor(Stack.Direction.Right);
-			if (padState1.IsButtonDown(Buttons.DPadDown) && !padState1.IsButtonDown(Buttons.DPadDown))
-				testStack.MoveCursor(Stack.Direction.Down);
-			if (padState1.IsButtonDown(Buttons.DPadLeft) && !padState1.IsButtonDown(Buttons.DPadLeft))
-				testStack.MoveCursor(Stack.Direction.Left);
 
-			if (padState1.IsButtonDown(Buttons.A) && !lastPadState1.IsButtonDown(Buttons.A))
-				blockSwitch = true;
-			if (padState1.IsButtonDown(Buttons.B) && !lastPadState1.IsButtonDown(Buttons.B))
-				blockSwitch = true;
-			if (padState1.IsButtonDown(Buttons.X) && !lastPadState1.IsButtonDown(Buttons.X))
-				blockSwitch = true;
-			if (padState1.IsButtonDown(Buttons.Y) && !lastPadState1.IsButtonDown(Buttons.Y))
-				blockSwitch = true;
+				if (keyState.IsKeyDown(Keys.Z) && !lastKeyState.IsKeyDown(Keys.Z))
+					p1BlockSwitch = true;
+				if (keyState.IsKeyDown(Keys.X))
+					p1ManualRaise = true;
 
-			if (blockSwitch) {
+			}
+			else
+				multipleMoveCounter = 0;
+
+			if (multipleMoveCounter >= 10) {
+				if (!testStack.MoveCursor(p1CurrentDirection) || p1BlockSwitch) // Needs to be patched up so that directions can't flow into one another
+					multipleMoveCounter = 0;
+			}
+
+			if (p1BlockSwitch) {
 				testStack.Switch();
-				blockSwitch = false;
+				p1BlockSwitch = false;
 			}
-			if (manualRaise) {
+			if (p1ManualRaise) {
 				testStack.ManualRaise();
-				manualRaise = false;
+				p1ManualRaise = false;
 			}
+
+			// P2
+			if (!testStack2.CursorCannotBeMoved) {
+				if (padState1.IsButtonDown(Buttons.DPadUp) && !padState1.IsButtonDown(Buttons.DPadUp))
+					testStack2.MoveCursor(Stack.Direction.Up);
+				else if (padState1.IsButtonDown(Buttons.DPadRight) && !padState1.IsButtonDown(Buttons.DPadRight))
+					testStack2.MoveCursor(Stack.Direction.Right);
+				else if (padState1.IsButtonDown(Buttons.DPadDown) && !padState1.IsButtonDown(Buttons.DPadDown))
+					testStack2.MoveCursor(Stack.Direction.Down);
+				else if (padState1.IsButtonDown(Buttons.DPadLeft) && !padState1.IsButtonDown(Buttons.DPadLeft))
+					testStack2.MoveCursor(Stack.Direction.Left);
+
+				if (padState1.IsButtonDown(Buttons.A) && !lastPadState1.IsButtonDown(Buttons.A))
+					p2BlockSwitch = true;
+				if (padState1.IsButtonDown(Buttons.B) && !lastPadState1.IsButtonDown(Buttons.B))
+					p2BlockSwitch = true;
+				if (padState1.IsButtonDown(Buttons.X) && !lastPadState1.IsButtonDown(Buttons.X))
+					p2BlockSwitch = true;
+				if (padState1.IsButtonDown(Buttons.Y) && !lastPadState1.IsButtonDown(Buttons.Y))
+					p2BlockSwitch = true;
+
+				if (padState1.IsButtonDown(Buttons.LeftShoulder) && !lastPadState1.IsButtonDown(Buttons.LeftShoulder))
+					p2ManualRaise = true;
+				if (padState1.IsButtonDown(Buttons.RightShoulder) && !lastPadState1.IsButtonDown(Buttons.RightShoulder))
+					p2ManualRaise = true;
+			}
+
+			// P1
+			
+
+			// P2
+			if (p2BlockSwitch) {
+				testStack2.Switch();
+				p2BlockSwitch = false;
+			}
+			if (p2ManualRaise) {
+				testStack2.ManualRaise();
+				p2ManualRaise = false;
+			}
+
 
 			testStack.Update(gameTime);
 			testStack2.Update(gameTime);
 
-            base.Update(gameTime);
-
 			lastKeyState = keyState;
 			lastPadState1 = padState1; lastPadState2 = padState2;
+
+            base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime) {

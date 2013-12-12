@@ -20,7 +20,9 @@ namespace Puzzle_League_MAYHEM {
 			base.LoadContent(theContentManager);
 			spriteSize = new Vector2(38, 22);
 			autoAnimate = true;
-			milliPerSprite = 200;
+			animationByFrame = true;
+			framesPerSprite = 16;
+			//milliPerSprite = 200;
 		}
 
 		public override void Update(GameTime gameTime) {

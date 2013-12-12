@@ -78,3 +78,5 @@ C:\Users\Willazo\Documents\GitHub\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle
 C:\Users\Willazo\Documents\GitHub\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\WindowsGL\Debug\Puzzle League MAYHEM.pdb
 C:\Users\Willazo\Documents\GitHub\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\WindowsGL\Debug\Content\Graphics\Interface\StopBar.png
 C:\Users\Willazo\Documents\GitHub\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\WindowsGL\Debug\Content\Graphics\Interface\TildeBorder.png
+C:\Users\Willazo\Documents\GitHub\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\WindowsGL\Debug\Content\Graphics\Sprites\GrayPixel.bmp
+C:\Users\Willazo\Documents\GitHub\PuzzleLeagueMAYHEM\Puzzle League MAYHEM\Puzzle League MAYHEM\bin\WindowsGL\Debug\Content\Graphics\Interface\MinimapBackdrop.png

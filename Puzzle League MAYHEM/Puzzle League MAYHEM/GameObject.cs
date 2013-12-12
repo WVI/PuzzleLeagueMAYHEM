@@ -122,6 +122,9 @@ namespace Puzzle_League_MAYHEM {
 		/* The value milliPerSprite can change the speedF at which the sprite animates. By default, it's 50.
 		 * You can even change milliPerSprite during certain parts of certain animations by keeping an eye on the spriteIndex.
 		 */
+		protected int frameCounter = 0;
+		protected int framesPerSprite = 6;
+		protected bool animationByFrame = false;
 		protected bool affectedByScrolling = true;
 
 		// OBJECT DEATH ROUTINE
@@ -211,10 +214,18 @@ namespace Puzzle_League_MAYHEM {
         public virtual void Update(GameTime gameTime) {
 			if (alive) {
 				if (autoAnimate || deathAnimation) {
-					timeSinceLastSprite += gameTime.ElapsedGameTime.Milliseconds;
-					if (timeSinceLastSprite > milliPerSprite) {
-						timeSinceLastSprite -= milliPerSprite;
-						UpdateSpriteSheet();
+					if (animationByFrame) {
+						if (frameCounter >= framesPerSprite) {
+							UpdateSpriteSheet();
+							frameCounter = 0;
+						}
+					}
+					else {
+						timeSinceLastSprite += gameTime.ElapsedGameTime.Milliseconds;
+						if (timeSinceLastSprite > milliPerSprite) {
+							timeSinceLastSprite -= milliPerSprite;
+							UpdateSpriteSheet();
+						}
 					}
 				}
 
@@ -231,6 +242,8 @@ namespace Puzzle_League_MAYHEM {
 
 				center = new Vector2((location.X + (spriteSize.X * scale)) / 2, (location.Y + (spriteSize.Y * scale)) / 2);
 				UpdateCollisionBoxes();
+
+				frameCounter++;
 			}
         }
 
@@ -250,8 +263,6 @@ namespace Puzzle_League_MAYHEM {
 			else
 				this.alive = false;
         }
-
-
 
         protected void UpdateCollisionBoxes() {
             BoundingBox = new Rectangle((int)Location.X, (int)Location.Y,
